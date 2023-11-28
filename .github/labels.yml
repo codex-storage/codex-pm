@@ -72,7 +72,7 @@
 - name: "E:1.7: Merkelizing Block Data"
   description: See https://github.com/waku-org/pm/issues/63 for details
   color: 92A880
-- name: "E:1.8: Request Proving Scheme Marketplace Integration"
+- name: "E:1.8: Request Proving Scheme Marketplace Integ."
   description: See https://github.com/waku-org/pm/issues/64 for details
   color: 37BEA9
 - name: "E:1.9: Update Marketplace to New Design"
