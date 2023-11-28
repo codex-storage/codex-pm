@@ -94,13 +94,13 @@ Which means, in terms of _navigation_:
 
 **Monthly**:
 
-Handled by Insights team
+- Handled by Insights team
 
 **Weekly**: Report progress on each **active** _Epic_ or _Task_ per sub-team.
 
-Every Friday, all team members must include a weekly summary of their work and progress in the #standups channel within the Codex Discord server inclusive of any links to relevant Epics/Issues/PRs.
+- Every Friday, all team members must include a weekly summary of their work and progress in the #standups channel within the Codex Discord server inclusive of any links to relevant Epics/Issues/PRs.
 
-On Monday, project lead or responsible person for report can generate a report and post it in the Logos Discord server in the #leads-roundup channel.
+- On Monday, project lead or responsible person for report can generate a report and post it in the Logos Discord server in the #leads-roundup channel.
 
 ## Milestones
 
