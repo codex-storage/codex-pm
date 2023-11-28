@@ -50,6 +50,41 @@
 
 # Everything below this comment requires updating for Codex
 
+## Epics belonging to [Milestone] Codex Testnet Phase 0 (Codex - PoC 3 Longsword)
+- name: "E:1.1 Improve Client Stability"
+  description: See https://github.com/waku-org/pm/issues/62 for details
+  color: 20A609
+- name: "E:1.2: Block Discovery and Retrieval"
+  description: See https://github.com/waku-org/pm/issues/65 for details
+  color: 5319e7
+- name: "E:1.3: Wiring the Proving System"
+  description: See https://github.com/waku-org/pm/issues/66 for details
+  color: 8A5EE0
+- name: "E:1.4: Multi-threading"
+  description: See https://github.com/waku-org/pm/issues/67 for details
+  color: 244B5B
+- name: "E:1.5: Refine Proving System"
+  description: See https://github.com/waku-org/pm/issues/68 for details
+  color: 195A49
+- name: "E:1.6: Implement Poseidon2"
+  description: See https://github.com/waku-org/pm/issues/49 for details
+  color: e99695
+- name: "E:1.7: Merkelizing Block Data"
+  description: See https://github.com/waku-org/pm/issues/63 for details
+  color: 92A880
+- name: "E:1.8: Request Proving Scheme Marketplace Integration"
+  description: See https://github.com/waku-org/pm/issues/64 for details
+  color: 37BEA9
+- name: "E:1.9: Update Marketplace to New Design"
+  description: See https://github.com/waku-org/pm/issues/69 for details
+  color: B342EA
+- name: "E:1.10: End-to-end Testing"
+  description: See https://github.com/waku-org/pm/issues/70 for details
+  color: DF42D5
+- name: "E:1.11: Marketplace Walkthrough and Cleanup"
+  description: See https://github.com/waku-org/pm/issues/87 for details
+  color: e99695
+
 ## Orphaned Epics
 - name: "E:Fuzzing"
   description: See https://github.com/waku-org/pm/issues/35 for details
@@ -81,39 +116,4 @@
 - name: "E:Bare Metal Testing"
   description: see https://github.com/waku-org/pm/issues/98 for details
   color: F2CE72
-
-## [Milestone] Codex Testnet Phase 0 (Codex - PoC 3 Longsword)
-
-- name: "E:1.1 Improve Client Stability"
-  description: See https://github.com/waku-org/pm/issues/62 for details
-  color: 20A609
-- name: "E:1.2: Block Discovery and Retrieval"
-  description: See https://github.com/waku-org/pm/issues/65 for details
-  color: 5319e7
-- name: "E:1.3: Wiring the Proving System"
-  description: See https://github.com/waku-org/pm/issues/66 for details
-  color: 8A5EE0
-- name: "E:1.4: Multi-threading"
-  description: See https://github.com/waku-org/pm/issues/67 for details
-  color: 244B5B
-- name: "E:1.5: Refine Proving System"
-  description: See https://github.com/waku-org/pm/issues/68 for details
-  color: 195A49
-- name: "E:1.6: Implement Poseidon2"
-  description: See https://github.com/waku-org/pm/issues/49 for details
-  color: e99695
-- name: "E:1.7: Merkelizing Block Data"
-  description: See https://github.com/waku-org/pm/issues/63 for details
-  color: 92A880
-- name: "E:1.8: Request Proving Scheme - Marketplace Integration"
-  description: See https://github.com/waku-org/pm/issues/64 for details
-  color: 37BEA9
-- name: "E:1.9: Update Marketplace to New Design"
-  description: See https://github.com/waku-org/pm/issues/69 for details
-  color: B342EA
-- name: "E:1.10: End-to-end Testing"
-  description: See https://github.com/waku-org/pm/issues/70 for details
-  color: DF42D5
-- name: "E:1.11: Marketplace Walkthrough and Cleanup"
-  description: See https://github.com/waku-org/pm/issues/87 for details
-  color: e99695
+  
