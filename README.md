@@ -39,16 +39,22 @@ Each epic should have an owner per affected subteam (e.g. Codex Client, Codex Ma
 - Defining the success criteria
 - Designing and implementing the PoC
 - Creating unit & integration tests/simulations to confirm PoC performance meeting success criteria
+
 For development teams, it is expected that design/break down is done by epic owner. But actual work can be picked up by other team member. Epic owner must:
+
 - Understand the change and its implications
 - Liaise with researcher for any doubt or questions or design issues related to specific client/use case
 - Create issues (Tasks) to break down work in client repo, include an acceptance criteria in each issue to ensure that the objective/end goal/behaviour is clearly described
+
 It is likely that the epic owner will do the core change or first change for a given epic. However, subsequent/other changes may be picked up in parallel or sequentially by other team members.
 Hence:
+
 - Dependencies must be clearly stated in Task issue description
 - Team members must assign Task issues to themselves when work starts
 - Team member must update issues to track progress
+
 The program manager should ensure that epics are getting the right assignee in a timely fashion. For example, when research work starts for a given epic, epic owners from development team should be assigned, so they know to participate in discussions. Program manager should also ensure that issues are being created in a timely fashion, an is encouraged to use client PM call as a forum to check epics to be assigned. For example, when PoC is near completion then breaking down the work should be started.
+
 ### GitHub Usage
 A _Milestone_:
 - MUST have a matching GH issue in the https://github.com/codex-storage/codex-pm repo with `milestone` label assigned
