@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-2023 Key Milestones: https://notes.status.im/s/iylE6wdli#
+2023 Key Milestones: [Insert Codex 2024 Key Milestones] e.g. Waku https://notes.status.im/s/iylE6wdli#
 
 **Milestone**: <!-- URL to the GitHub Milestone -->
 <!-- Remove tracks as needed -->
