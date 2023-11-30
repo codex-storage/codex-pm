@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 # Replace with your GitHub username, organization, and personal access token
 username = "JessieBroke"
-organization = "TheBasedmint"
+organization = "codex-storage"
 token = os.getenv("GH_PAT")
 
 # GitHub API endpoint for listing repositories in the organization
@@ -18,8 +18,8 @@ repositories_data = response.json()
 # Extract repository names from the response
 repositories = [repo["name"] for repo in repositories_data]
 
-# Calculate the datetime 48 hours ago from now
-time_threshold = datetime.utcnow() - timedelta(hours=48)
+# Calculate the datetime 72 hours ago from now
+time_threshold = datetime.utcnow() - timedelta(hours=72)
 
 # Create a dictionary to store unique issues based on the combination of issue URL and label name
 unique_issues = {}

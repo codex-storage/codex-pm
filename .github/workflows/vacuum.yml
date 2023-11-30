@@ -27,7 +27,7 @@ jobs:
         run: |
           python .github/scripts/vacuum.py
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.SYNC_LABELS2 }}
         working-directory: ${{ github.workspace }}
 
       - name: Upload issue events as artifact
