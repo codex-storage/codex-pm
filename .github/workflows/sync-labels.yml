@@ -57,4 +57,4 @@ jobs:
             codex-storage/infra-docs
             codex-storage/codex-incentives
           token: ${{ secrets.SYNC_LABELS2 }}
-          prune: true
+          prune: false
