@@ -56,5 +56,14 @@ jobs:
             codex-storage/infra-codex
             codex-storage/infra-docs
             codex-storage/codex-incentives
+            apatheia
+            nim-chroprof
+            codex-testnet-starter
+            docs.codex.storage
+            guide.codex.storage
+            nim-circom-compat
+            circom-compat-ffi
+            circom-compat
+            nim-serde
           token: ${{ secrets.SYNC_LABELS2 }}
           prune: false
