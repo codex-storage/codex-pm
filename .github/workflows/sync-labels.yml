@@ -64,6 +64,6 @@ jobs:
             codex-storage/nim-circom-compat
             codex-storage/circom-compat-ffi
             codex-storage/circom-compat
-            codex-storage/nim-serde
+            codex-storage/nim-serde        
           token: ${{ secrets.SYNC_LABELS2 }}
           prune: false
