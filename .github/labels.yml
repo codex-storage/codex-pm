@@ -45,6 +45,17 @@
   description: Pull requests that update a dependency file or issues that track it
   color: 0366d6
 
+- name: simulation
+  color: B60205
+  description: ''
+- name: triage
+  color: 0e8a16
+  description: ''
+- name: engineering
+  color: 7D35FD
+  description: ''
+  name: Infra
+
 # Everything below this comment is specific to Codex (modify description )
 
 ## Internal Codex Sub-team Labels
