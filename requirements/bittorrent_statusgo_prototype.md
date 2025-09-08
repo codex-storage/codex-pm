@@ -63,11 +63,20 @@ a Codex CID that uses individual CIDs to refer to each individual archive:
 
 ![team-nl-br-design-3](https://hackmd.io/_uploads/rJinDHHYge.svg)
 
-### Message archive size
+### Assumptions
+
+#### Node role
+
+Node are assumed to be desktop nodes with enough space available to
+download indices and message archives when they are received over the special
+channel.
+
+#### Message archive size
 
 The size of the message archives will be dependent upon the activity in each
-community. It remains unclear what the average size of current message
-archives are, however an upper bound should be established.
+community. It remains unclear what a community's average message activity is and
+consequently, the size of current message archives. However, an upper bound of
+message archive size should be established.
 
 It was reported that when the Community History Service was first implemented to
 export Discord messages, the message archive was **10GB**, which we assume is
@@ -87,7 +96,7 @@ Status and into its own protocol.
 
 ### Functionality
 
-1. Ability to transfer datasets of at least 10GB between two or more nodes.
+1. Ability to transfer datasets of at most 10GB between two or more nodes.
 2. Datasets must be represented with a verifiable CID for data integrity.
 3. All community members must be a Codex node and must be a provider of datasets.
 4. Providers of datasets must be discoverable by querying for a CID.
