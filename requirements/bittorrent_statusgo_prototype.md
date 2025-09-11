@@ -98,7 +98,8 @@ Status and into its own protocol.
 
 1. Ability to transfer datasets of at most 10GB between two or more nodes.
 2. Datasets must be represented with a verifiable CID for data integrity.
-3. All community members must be a Codex node and must be a provider of datasets.
+3. Each community member must run a Codex node (free space should be verified on
+   startup).
 4. Providers of datasets must be discoverable by querying for a CID.
 5. Uploaded or downloaded datasets must be downloadable by peers.
 6. `index` files must have their own CID.
